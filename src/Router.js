@@ -27,7 +27,7 @@ const MemberStack = () => {            //normal function yapısı da kullanılab
 } 
 
 
-const ProfileStack = () => {
+const ProfileStack = () => {  
     return(
         <Stack.Navigator>
             <Stack.Screen name="ProfileScreen" component={Profile} />
